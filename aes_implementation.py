@@ -539,7 +539,8 @@ def decrypt_cbc(cipher_bytes, key, inv_sbox, sbox_map):
 
 
 # - Utilities ------
-# to process deliverable files
+
+# interpet hex data from input files
 def read_hex_file(path):
     with open(path, 'r') as f:
         hex_data = f.read().strip()
